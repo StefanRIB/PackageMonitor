@@ -91,7 +91,7 @@ case "$1" in
         echo "  installed"
         echo "  removed"
         echo "  history <pachet>"
-        echo "  period \"YYYY-MM-DD HH:MM\" \"YYYY-MM-DD HH:MM\""
+        echo "  period \"YYYY-MM-DD HH:MM:SS\" \"YYYY-MM-DD HH:MM:SS\""
         echo "  size <pachet>"
         echo "  totalsize"
         echo "  undo"
