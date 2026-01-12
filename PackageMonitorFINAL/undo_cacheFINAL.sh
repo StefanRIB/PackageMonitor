@@ -11,8 +11,6 @@ touch "$CACHE_FILE"
 add_to_undo_cache() {
     local pkg="$1"
 
-    echo "DEBUG: add_to_undo_cache called with $pkg" >> /tmp/undo_debug.log
-
     # creeaza cache
     touch "$CACHE_FILE"
 
