@@ -48,15 +48,11 @@ period() {
 
 pkg_size() {
     local pkg="$1"
-    echo "Dimensiune $pkg:"
-    cat "$WORKDIR/$pkg/size"
-    echo "KB"
+    echo "Dimensiune $pkg: $(cat "$WORKDIR/$pkg/size") KB"
 }
 
 total_size() {
-    echo "Dimensiune totala instalata:"
-    cat "$WORKDIR/total_size"
-    echo "KB"
+    echo "Dimensiune totala instalata: $(cat "$WORKDIR/total_size") KB"
 }
 
 #meniu client
